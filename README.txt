@@ -17,6 +17,19 @@ Credits:
     - math module - Rockins Chen <ybc2084@gmail.com>
     - VS support - Krzysztof Kowalczyk
     - bug fixin' - Dean Hall & Allefant
+    
+    
+for assemle (encode) a python file use this command:
+python2 py2bc.py in.py out.tpc
+
+and for disassemble a tpc file use this:
+python2 disasm.py out.tpc
+
+Note: it work with python2 only
+don't try to use python 3 for assemble or disassemble file.
+or you can use the tinypy without python 2.
+like this command:
+tinypy py2bc.py in.py out.tpc
 
 Thanks to allefant and the python community for all the tips and feedback!
 Thanks to John M. for a python 2.5 compat. patch.
